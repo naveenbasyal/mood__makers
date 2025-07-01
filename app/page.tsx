@@ -305,10 +305,10 @@ export default function MoodMakersWebsite() {
                     {item}
                   </button>
                 ))}
-                <Button 
-                onClick={() => scrollToSection("Contact".toLowerCase())}
-
-                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white rounded-full mt-4">
+                <Button
+                  onClick={() => scrollToSection("Contact".toLowerCase())}
+                  className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white rounded-full mt-4"
+                >
                   Book Now
                 </Button>
               </div>
@@ -989,6 +989,17 @@ export default function MoodMakersWebsite() {
             <p>
               &copy; {new Date().getFullYear()} Mood Makers Beverage Catering.
               All rights reserved.
+            </p>
+            <p className="mt-1">
+              Website by{" "}
+              <a
+                href="https://www.linkedin.com/in/naveenbasyal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white font-semibold underline hover:text-blue-400 transition-colors"
+              >
+                Naveen Basyal
+              </a>
             </p>
           </div>
         </div>
